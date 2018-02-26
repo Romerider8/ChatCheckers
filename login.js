@@ -11,8 +11,6 @@ Login.prototype.userExists = function(db, user, callback) {
 };
 
 // Adds a user to the given database
-// Author: Kyle
-// 
 // callback: function(resultObject, msg)
 Login.prototype.insertUser = function(db, whatUser, callback) {
 	var collection = Login.prototype.getCollection(db);
